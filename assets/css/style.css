@@ -1,0 +1,25 @@
+
+header {
+    
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d4df76;
+    
+
+}
+
+header div{
+    display: flex;
+
+}
+
+.footer {
+    padding: 50px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(175, 175, 202);
+}
