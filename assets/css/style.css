@@ -7,8 +7,14 @@ header {
     
 
 }
+
+h1 {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
 header div {
-   
+   display: block;
     
 
 }
@@ -18,16 +24,25 @@ header div {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: ;
+    background-image: "assets\images\IMG_0490.JPG";
     background-size: cover;
     background-position: center;
 }
 
 
-header div ul il {
+header div ul li {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
+
+.about-image, .project-image1 {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
 
 .footer {
     padding: 50px;
