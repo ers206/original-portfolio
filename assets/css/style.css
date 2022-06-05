@@ -3,23 +3,39 @@ header {
     
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #d4df76;
+    background-color: #000000;
+    
+
+}
+header div {
+   
     
 
 }
 
-header div {
-    display: flex;
+.hero {
 
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: ;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header div ul il {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
     padding: 50px;
-    color: rgb(158, 60, 60);
+    color: rgb(70, 13, 13);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 body {
-    background-color: rgb(175, 175, 202);
+    background-color: rgb(255, 255, 255);
 }
