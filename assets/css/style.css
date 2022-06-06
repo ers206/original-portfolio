@@ -1,56 +1,76 @@
-
+/* header */
 header {
     
-    padding: 20px;
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #000000;
+    background-color: #fcfafa;
+    justify-content: column;
     
 
 }
 
 h1 {
     display: flex;
-    color: aliceblue;
+    color: rgb(16, 91, 156);
     justify-content: center;
-}
-header div {
-   display: block;
+    font-size: 50px;
     
+}
+
+
+.header-parent{
+    display: flex;
+    font-size: larger;
+    list-style-type: none;
+    flex-direction: column-reverse;
+ 
 
 }
 
+/* hero section */
 .hero {
 
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: "assets\images\IMG_0490.JPG";
+    background-image: url(../images/PXL_20211031_191507091.jpg);
     background-size: cover;
     background-position: center;
 }
+.main {
 
-
-header div ul li {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+}
+/* my projects section */
+.my-projects {
+
+    display: flex;
+    
 }
 
-.about-image, .project-image1 {
-    display: block;
+.my-projects header h2 {
+    justify-content: center;
+
+    
+}
+
+
+
+
+.about-image, .project-image1, .project-image2, .project-image3, .project-image4 {
+    
     margin: 10px auto;
     max-width: 150px;
+    
 }
 
 
-
+/* footer */
 .footer {
+   
     padding: 50px;
     color: rgb(70, 13, 13);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-body {
-    background-color: rgb(255, 255, 255);
-}
