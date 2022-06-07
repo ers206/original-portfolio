@@ -1,12 +1,27 @@
 /* header */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     
     display: flex;
+    justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #fcfafa;
-    justify-content: column;
-    
+    background-color: #89cf2d;
 
+}
+
+header section {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+header section div {
+    padding: 0 20px;
 }
 
 h1 {
@@ -17,15 +32,12 @@ h1 {
     
 }
 
-
-.header-parent{
-    display: flex;
-    font-size: larger;
-    list-style-type: none;
-    flex-direction: column-reverse;
- 
-
+.content {
+    /* text-align: center; */
 }
+
+
+
 
 /* hero section */
 .hero {
@@ -37,14 +49,16 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+
 .main {
 
     display: flex;
 }
+
 /* my projects section */
 .my-projects {
 
-    display: flex;
+   
     
 }
 
@@ -54,13 +68,36 @@ h1 {
     
 }
 
+.about-image {
+    max-width: 25%;
+}
 
+.projectOne {
+    min-height: 250px;
+    max-height: 250px;
+    background-image: url('../images/PXL_20210920_205342546.jpg');
+    background-size: cover;
+    border: #89cf2d solid 4px;
+}
 
+.projectOne:hover {
+    border: red solid 4px;
+}
 
-.about-image, .project-image1, .project-image2, .project-image3, .project-image4 {
-    
+.projectOne h3 {
+    background-color: #89cf2d;
+    display: inline;
+    position: relative;
+    bottom: -200px;
+    padding: 10px;
+    left: 0px;
+}
+
+.project-image1, .project-image2, .project-image3, .project-image4, .project-image5 {
+    display: flex;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 25%;
+  
     
 }
 
@@ -74,3 +111,11 @@ h1 {
     text-align: center;
 }
 
+@media only screen and (max-width: 746px) {
+    header {
+        flex-direction: column;
+    }
+    header section {
+        justify-content: space-evenly;
+    }
+}
