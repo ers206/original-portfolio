@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #89cf2d;
+    background-color: #27a8cf;
 
 }
 
@@ -26,14 +26,32 @@ header section div {
 
 h1 {
     display: flex;
-    color: rgb(16, 91, 156);
+    color: rgb(4, 14, 7);
     justify-content: center;
     font-size: 50px;
     
 }
 
-.content {
-    /* text-align: center; */
+
+
+.about-me {
+
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.about-me p {
+
+    /* display: flex; */
+    font-size: 30px;
+    align-items: center;
+
+}
+
+.about-me h2, .my-projects h2, .contact-info h2 {
+
+    font-size: 70px;
+
 }
 
 
@@ -45,68 +63,125 @@ h1 {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(../images/PXL_20211031_191507091.jpg);
+    background-image: url(../images/PXL_20220604_020954767.NIGHT.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.main {
+/* .main {
 
     display: flex;
-}
+} */
 
 /* my projects section */
-.my-projects {
-
-   
-    
-}
-
-.my-projects header h2 {
+ /* .my-projects {
+    display: inline;
     justify-content: center;
 
     
-}
+}  */
+
+ /* .my-projects header h2 {
+    justify-content: center;
+    display: flex;
+    
+}  */
 
 .about-image {
     max-width: 25%;
 }
 
 .projectOne {
-    min-height: 250px;
-    max-height: 250px;
-    background-image: url('../images/PXL_20210920_205342546.jpg');
+    min-height: 500px; 
+    max-height: 300px;
+    background-image: url('../images/IMG_0490.JPG');
     background-size: cover;
-    border: #89cf2d solid 4px;
+    border: #9ee3f5 solid 4px; 
+    /* left: 100px; */
+} 
+
+.projectOne:hover, .projectTwo:hover, .projectThree:hover, .projectFour:hover, .projectFive:hover {
+    border: rgb(37, 180, 8) solid 4px;
 }
 
-.projectOne:hover {
-    border: red solid 4px;
-}
-
-.projectOne h3 {
-    background-color: #89cf2d;
+/* .projectOne h3 {
+    background-color:  #27a8cf;
     display: inline;
     position: relative;
     bottom: -200px;
     padding: 10px;
     left: 0px;
-}
+} */
 
-.project-image1, .project-image2, .project-image3, .project-image4, .project-image5 {
+.smaller-pics {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+
+} 
+
+/* .project-image1, .project-image2, .project-image3, .project-image4, .project-image5 {
     display: flex;
     margin: 10px auto;
-    max-width: 25%;
+    max-width: 25%; 
+
+} */
+  
+ .projectTwo, .projectThree, .projectFour, .projectFive {
+     display: flex;
+    min-height: 250px; 
+    max-height: 250px;
+    min-width: 290px;
+    max-width: 250px;
+    flex-direction: row;
+    
+    background-size: cover;
+    border: #9ee3f5 solid 4px;
+
+ }   
+
+.projectTwo { 
+
+    background-image: url(../images/PXL_20210920_205342546.jpg);
+    size-adjust: auto;
+
+}
+
+.projectThree {
+
+    background-image: url(../images/PXL_20211027_185618522.jpg);
+
+}
+
+.projectFour {
+
+    background-image:url(../images/PXL_20220604_020954767.NIGHT.jpg) ;
+
+}
+
+.projectFive {
+
+    background-image: url(../images/PXL_20211230_171349247.MP.jpg);
+
+}
+ 
+.contact-info{
+
+    text-align: center;
+
   
     
 }
 
 
 /* footer */
+
 .footer {
-   
-    padding: 50px;
-    color: rgb(70, 13, 13);
+
+    padding: 30px;
+    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
