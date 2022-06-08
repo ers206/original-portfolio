@@ -30,6 +30,7 @@ h1 {
     color: rgb(4, 14, 7);
     justify-content: center;
     font-size: 50px;
+    margin: 15px;
     
 }
 
@@ -41,13 +42,18 @@ h1 {
     /* justify-content: space-between; */
 }
 
+.about-image {
+    display:block;
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-me p {
 
     /* display: flex; */
     font-size: 30px;
     text-align: center;
-    
-
 }
  
 .about-me h2, .my-projects h2 {
@@ -77,9 +83,6 @@ h1 {
 
 }
 
-
-
-
 /* hero section */
 .hero {
 
@@ -91,18 +94,9 @@ h1 {
     background-position: center;
 }
 
-
-.about-image {
-    display:block;
-    max-width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+/* about me section */
 
 
-    
-    
-    
-}
 /* My projects section */
 .projectOne {
     min-height: 500px; 
@@ -110,8 +104,7 @@ h1 {
     background-image: url('../images/IMG_0490.JPG');
     background-size: cover;
     border: #000000 solid 4px; 
-   
-} 
+   } 
 
 .projectOne:hover, .projectTwo:hover, .projectThree:hover, .projectFour:hover, .projectFive:hover {
     border: rgb(37, 180, 8) solid 4px;
@@ -121,7 +114,7 @@ h1 {
 
 .smaller-projects {
      display: flex;
-    /* flex-wrap: wrap; */
+     /* flex-wrap: wrap;  */
     justify-content: space-between; 
 } 
  
@@ -179,7 +172,7 @@ h1 {
 
     .smaller-projects {
        flex-wrap: wrap;
-         }
+    }
     header {
         flex-direction: column;
     }
