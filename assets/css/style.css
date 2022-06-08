@@ -66,16 +66,18 @@ h1 {
 
 }
 
-.contact-info {
+.contact-info  {
 
     padding: 50px;
 }
 
-.contact-info p{
+.contact-info p, .linkedin-link{
 
     padding-top: 10px;
 
 }
+
+
 
 
 /* hero section */
@@ -89,24 +91,6 @@ h1 {
     background-position: center;
 }
 
-/* .main {
-
-    background-color: #27a8cf;
-} */
-
-/* my projects section */
- /* .my-projects {
-    display: inline;
-    justify-content: center;
-
-    
-}  */
-
- /* .my-projects header h2 {
-    justify-content: center;
-    display: flex;
-    
-}  */
 
 .about-image {
     display:block;
@@ -126,39 +110,21 @@ h1 {
     background-image: url('../images/IMG_0490.JPG');
     background-size: cover;
     border: #000000 solid 4px; 
-    /* left: 100px; */
+   
 } 
 
 .projectOne:hover, .projectTwo:hover, .projectThree:hover, .projectFour:hover, .projectFive:hover {
     border: rgb(37, 180, 8) solid 4px;
 }
 
-/* .projectOne h3 {
-    background-color:  #27a8cf;
-    display: inline;
-    position: relative;
-    bottom: -200px;
-    padding: 10px;
-    left: 0px;
-} */
 
-.smaller-pics {
 
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    
-    
-
+.smaller-projects {
+     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between; 
 } 
-
-/* .project-image1, .project-image2, .project-image3, .project-image4, .project-image5 {
-    display: flex;
-    margin: 10px auto;
-    max-width: 25%; 
-
-} */
-  
+ 
  .projectTwo, .projectThree, .projectFour, .projectFive {
     display: flex;
     min-height: 250px; 
@@ -174,41 +140,31 @@ h1 {
  }   
 
 .projectTwo { 
-
     background-image: url(../images/PXL_20210920_205342546.jpg);
     size-adjust: auto;
 
 }
 
 .projectThree {
-
     background-image: url(../images/PXL_20211027_185618522.jpg);
-
 }
 
 .projectFour {
-
     background-image:url(../images/PXL_20211031_191507091.jpg) ;
 
 }
-
 .projectFive {
-
     background-image: url(../images/PXL_20211230_171349247.MP.jpg);
 
 }
- 
+
+/* my contact section */
 .contact-info{
 
     text-align: center;
-
-  
-    
 }
 
-
-/* footer */
-
+ /* footer */
 .footer {
 
     padding: 30px;
@@ -218,11 +174,17 @@ h1 {
     background-color: #27a8cf;
 }
 
-@media only screen and (max-width: 746px) {
+/* media queries */
+@media screen and (max-width: 746px) {
+
+    .smaller-projects {
+       flex-wrap: wrap;
+         }
     header {
         flex-direction: column;
     }
     header section {
         justify-content: space-evenly;
-    }
+    } 
 }
+  
