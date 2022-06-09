@@ -24,7 +24,7 @@ I used html and css to create a webpage to show a portfolio of my work. I incorp
 ![](./assets/images/Screenshot%202022-06-08%20174655.png)
 
 ## Website
-
+https://ers206.github.io/original-portfolio/
 
 ## contribution
 Made with ❤️ by Eric Schweitzer 
